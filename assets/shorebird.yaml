@@ -1,0 +1,35 @@
+# This file is used to configure the Shorebird updater used by your app.
+# Learn more at https://docs.shorebird.dev
+# This file does not contain any sensitive information and should be checked into version control.
+
+# Your app_id is the unique identifier assigned to your app.
+# It is used to identify your app when requesting patches from Shorebird's servers.
+# It is not a secret and can be shared publicly.
+app_id: 8b0dfa3e-e4ba-46d1-8faa-05f4221e0f73
+flavors:
+  carrom: 8b0dfa3e-e4ba-46d1-8faa-05f4221e0f73
+  cash: ecf7d8d5-2145-4c94-9508-5a8d96cc1b5b
+  mi: ec206153-4b7d-4b14-a626-501d47fa47f2
+  mi2: a03810ca-31c9-4d6e-92f8-13f873d4efee
+  oppo: f8255005-ce21-4806-b909-e7c3cbfcd655
+  poker: 4acd3201-93b9-4560-a748-f4d6f2b6b6df
+  pokerindus: 2cf342a1-6c02-401e-9dde-4483e1d68515
+  pokermi: cde6c400-ea11-4b59-87ff-6a020062b26d
+  pokermi2: e646bd60-4a51-4f70-b22c-a28cd87c40b0
+  pokeroppo: e383d451-d6fa-4942-ac39-fafd0ec068fa
+  pokerps: 0ac1d477-4a55-4520-8adf-0d7abc629846
+  pokervivo: 2e68e0f3-37f5-4522-85ca-9743fe9349f4
+  ps: 2e456aaf-02d8-498b-8e99-a8ca37c80c05
+  pscash: 30dd4cc4-8a56-4b34-a494-1e37cee12c39
+  vivo: 2969a8cb-3529-48b4-9d45-00c5bb7f7911
+  Poker: 569961d5-d3ae-4980-b24a-d07249b90a99
+  pokerstars: f1fd4242-ebbc-4ba9-b460-16415921b094
+  pokerpscash: 985b40e0-db2a-4d57-9ff5-40cc41959417
+  pokerstarsps: ff4d9de6-519e-434d-8c22-4cfa2d7a82d7
+  pokerstarspscash: 109b9944-92bb-4108-8ef7-192ed9dad2a5
+
+# auto_update controls if Shorebird should automatically update in the background on launch.
+# If auto_update: false, you will need to use package:shorebird_code_push to trigger updates.
+# https://pub.dev/packages/shorebird_code_push
+# Uncomment the following line to disable automatic updates.
+auto_update: false
